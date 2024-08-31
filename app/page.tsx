@@ -4,10 +4,12 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold">Welcome to Our Website</h1>
-      <p>This is the home page of our Next.js application.</p>
+      <h1 className="text-2xl font-bold">Big Chungus</h1>
       <Link href="/mentorship" className="text-blue-500 hover:underline">
-        View Our Mentorship Program
+        Mentorship Program 
+      </Link>
+      <Link href="/contact" className="text-blue-500 hover:underline">
+        Contact
       </Link>
     </div>
   );
